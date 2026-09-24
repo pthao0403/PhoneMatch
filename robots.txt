@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://localhost/PhoneMatch/sitemap.xml
+
+Sitemap: https://pthao0403.github.io/PhoneMatch/sitemap.xml

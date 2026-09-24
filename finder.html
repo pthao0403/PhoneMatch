@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tư vấn chọn điện thoại | PhoneMatch</title>
+  <meta name="description" content="Tìm điện thoại phù hợp dựa trên ngân sách và nhu cầu sử dụng.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Phone<span>Match</span></a>
+
+      <button class="menu-btn" id="menuBtn" type="button"
+              aria-label="Mở menu" aria-expanded="false">☰</button>
+
+      <nav id="mainNav" aria-label="Điều hướng chính">
+        <a href="index.html">Trang chủ</a>
+        <a href="products.html">Điện thoại</a>
+        <a href="compare.html">So sánh</a>
+        <a class="active" href="finder.html" aria-current="page">Tư vấn</a>
+        <a href="guides.html">Góc tư vấn</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Phone Finder</span>
+        <h1>Tìm điện thoại theo nhu cầu</h1>
+        <p>
+          Chọn ngân sách và nhu cầu chính để nhận gợi ý phù hợp.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="finder-box">
+          <label for="finderBudget">
+            Ngân sách
+            <select id="finderBudget">
+              <option value="999">Không giới hạn</option>
+              <option value="5">Dưới 5 triệu</option>
+              <option value="10">Dưới 10 triệu</option>
+              <option value="15">Dưới 15 triệu</option>
+            </select>
+          </label>
+
+          <label for="finderNeed">
+            Nhu cầu
+            <select id="finderNeed">
+              <option value="">Tất cả nhu cầu</option>
+              <option value="camera">Chụp ảnh</option>
+              <option value="gaming">Chơi game</option>
+              <option value="battery">Pin tốt</option>
+              <option value="student">Sinh viên</option>
+            </select>
+          </label>
+
+          <button class="btn btn-primary" id="findBtn" type="button">
+            Tìm ngay
+          </button>
+        </div>
+
+        <div id="finderResult" class="product-grid" aria-live="polite">
+          <p>Chọn tiêu chí rồi bấm “Tìm ngay”.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="logo">Phone<span>Match</span></div>
+      <p>Tư vấn và so sánh điện thoại theo nhu cầu.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/finder.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

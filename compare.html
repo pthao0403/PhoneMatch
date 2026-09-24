@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>So sánh điện thoại | PhoneMatch</title>
+  <meta name="description" content="So sánh hai điện thoại theo giá, màn hình, chip, camera, pin và bộ nhớ.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Phone<span>Match</span></a>
+
+      <button class="menu-btn" id="menuBtn" type="button"
+              aria-label="Mở menu" aria-expanded="false">☰</button>
+
+      <nav id="mainNav" aria-label="Điều hướng chính">
+        <a href="index.html">Trang chủ</a>
+        <a href="products.html">Điện thoại</a>
+        <a class="active" href="compare.html" aria-current="page">So sánh</a>
+        <a href="finder.html">Tư vấn</a>
+        <a href="guides.html">Góc tư vấn</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Comparison</span>
+        <h1>So sánh điện thoại</h1>
+        <p>Chọn hai mẫu điện thoại để so sánh thông số và giá bán.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="compare-selects">
+          <label>
+            Điện thoại thứ nhất
+            <select id="compareA" aria-label="Chọn điện thoại thứ nhất">
+              <option value="">-- Chọn điện thoại --</option>
+            </select>
+          </label>
+
+          <label>
+            Điện thoại thứ hai
+            <select id="compareB" aria-label="Chọn điện thoại thứ hai">
+              <option value="">-- Chọn điện thoại --</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="compareResult" class="compare-result" aria-live="polite">
+          <p>Vui lòng chọn hai điện thoại để bắt đầu so sánh.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="logo">Phone<span>Match</span></div>
+      <p>Tư vấn và so sánh điện thoại theo nhu cầu.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/compare.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

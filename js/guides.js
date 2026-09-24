@@ -1,3 +1,4 @@
+alert("Đã chạy guides.js mới");
 document.addEventListener("DOMContentLoaded", () => {
   const guides = {
     student: {

@@ -47,9 +47,9 @@ const image =
   src="${image}"
   alt="${product.name || "Điện thoại"}"
   width="300"
-  height="350"
+  height="300"
   loading="lazy"
-  onerror="this.onerror=null;this.src='https://placehold.co/600x700/f1f5f9/334155?text=Phone';"
+  onerror="this.onerror=null;this.src='https://placehold.co/600x600/f1f5f9/334155?text=Phone';"
 >
         </a>
 

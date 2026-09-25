@@ -10,10 +10,55 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "PhoneMatch",
-  "description": "Tìm, so sánh và chọn điện thoại theo ngân sách và nhu cầu.",
-  "inLanguage": "vi-VN"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://pthao0403.github.io/PhoneMatch/#website",
+      "url": "https://pthao0403.github.io/PhoneMatch/",
+      "name": "PhoneMatch",
+      "description": "PhoneMatch giúp tìm, so sánh và chọn điện thoại theo ngân sách, nhu cầu, camera, gaming và thời lượng pin.",
+      "inLanguage": "vi-VN",
+      "publisher": {
+        "@id": "https://pthao0403.github.io/PhoneMatch/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://pthao0403.github.io/PhoneMatch/#organization",
+      "name": "PhoneMatch",
+      "url": "https://pthao0403.github.io/PhoneMatch/"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://pthao0403.github.io/PhoneMatch/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Điện thoại nào phù hợp cho sinh viên?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sinh viên nên ưu tiên mẫu có giá phù hợp ngân sách, pin tốt, hiệu năng đủ cho học tập và giải trí, cùng bộ nhớ đáp ứng nhu cầu lưu trữ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "128GB hay 256GB?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "128GB phù hợp nhu cầu cơ bản. 256GB phù hợp hơn nếu bạn quay video nhiều, chơi nhiều game hoặc muốn dùng lâu mà ít phải xóa dữ liệu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Khi mua điện thoại nên quan tâm gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nên xem xét ngân sách, hiệu năng, màn hình, camera, pin, bộ nhớ, phần mềm và chính sách bảo hành."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>

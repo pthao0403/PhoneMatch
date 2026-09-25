@@ -159,13 +159,13 @@ const products = [
   }
 ];
 const productImages = {
-  "iphone-17": "https://clickbuy.com.vn/uploads/news/hinh-anh-iphone-17-pro-max-8584421446869147491.jpg",
-  "galaxy-s26": "https://media.ldlc.com/r1600/ld/products/00/06/32/25/LD0006322596.jpg",
-  "galaxy-s26-ultra": "https://cdn.mos.cms.futurecdn.net/CtAgxUtxTaonDGbmQUv4E.jpg",
-  "xiaomi-15": "https://static2.pisapapeles.net/uploads/2024/10/xiaomi-15-2.jpg",
-  "xiaomi-15t": "https://cdn.movertix.com/media/catalog/product/cache/image/1200x/x/i/xiaomi-15t-pro-5g-dual-sim-grey-512gb-and-12gb-ram.jpg",
-  "oppo-reno13": "https://phonesgallerykenya.co.ke/wp-content/uploads/2026/08/Oppo-Reno-13-5G.jpg",
-  "oppo-reno13-f": "https://cdn2.fptshop.com.vn/unsafe/oppo_reno13_f_5g_tim_5_858ba5c2ad.png"
+  "iphone-17": "asset/iphone17.jpg",
+  "galaxy-s26": "asset/galaxys26.jpg",
+  "galaxy-s26-ultra": "asset/Galaxy-S26-Ultra.jpg",
+  "xiaomi-15": "asset/xiaomi15.jpg",
+  "xiaomi-15t": "asset/xiaomi-15t.jpg",
+  "oppo-reno13": "asset/oppo reno13.jpg",
+  "oppo-reno13-f": asset/opporeno13f.jpg"
 };
 products.forEach(product => {
   product.image = productImages[product.id] ||

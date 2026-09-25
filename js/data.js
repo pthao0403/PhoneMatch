@@ -164,7 +164,7 @@ const productImages = {
   "galaxy-s26-ultra": "asset/Galaxy-S26-Ultra.jpg",
   "xiaomi-15": "asset/xiaomi15.jpg",
   "xiaomi-15t": "asset/xiaomi-15t.jpg",
-  "oppo-reno13": "asset/oppo reno13.jpg",
+  "oppo-reno13": "asset/oppo-reno13.jpg",
   "oppo-reno13-f": "asset/opporeno13f.jpg"
 };
 products.forEach(product => {
